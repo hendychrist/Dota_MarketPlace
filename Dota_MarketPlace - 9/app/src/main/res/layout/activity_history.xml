@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:orientation="vertical"
+    tools:context=".historyForm">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="36dp"
+        android:text="Transaction History"
+        android:textColor="#4254BC"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/lbName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name : "/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Value Name "
+            android:layout_toRightOf="@+id/lbName"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/lbQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Item Quantity : "/>
+
+        <TextView
+            android:id="@+id/txtQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Value Quantity "
+            android:layout_toRightOf="@+id/lbQty"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/lbPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Item Price : "/>
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Value Price "
+            android:layout_toRightOf="@+id/lbPrice"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/lbTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Total Price (-) : "/>
+
+        <TextView
+            android:id="@+id/txtValuePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  VALUE MINUS BALANCE "/>
+
+    </LinearLayout>
+
+</LinearLayout>

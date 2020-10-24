@@ -1,0 +1,7 @@
+#Mon Oct 19 08:34:13 WIB 2020
+base.0=/Users/hendychristian/Desktop/AndroidProjek/Dota_MarketPlace - 9/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/hendychristian/Desktop/AndroidProjek/Dota_MarketPlace - 9/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
